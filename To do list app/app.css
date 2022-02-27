@@ -1,0 +1,82 @@
+.main-container{
+
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+    background-color: gainsboro;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(240, 234, 234);
+}
+
+.heading {
+    text-align: center;
+    font-size:10vh;
+    color: blue;
+    height: 30%;
+
+}
+
+.add-task{
+    height: 20%;
+}
+
+#enterTask{
+    width:80%;
+    margin: 10px;
+}
+
+#addButton{
+    background-color: blue;
+    color: white;
+}
+
+.editButton{
+    background-color: green;
+    color: white;  
+    margin-right: 10px; 
+    vertical-align: top;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;   
+    vertical-align: top;
+}
+
+.saveButton{
+    background-color: rgb(192, 228, 200);
+    color: black;  
+    margin-right: 10px; 
+}
+
+.cancelButton{
+    background-color: rgb(231, 177, 177);
+    color: black;   
+}
+
+button {
+    width:10%;
+    border-radius: 5px;
+}
+
+.list{
+    height: 50%;
+    background-color: white;
+    padding: 10px ;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.task{
+    width: 75%;
+    display: inline-block;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.content{
+    margin-bottom: 10px;
+}
